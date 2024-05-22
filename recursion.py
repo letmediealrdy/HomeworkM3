@@ -6,4 +6,4 @@ def rec(n):
         return n
     else:
         return n * rec(n-1)
-print(rec(7))
+print(rec(int(input('Введите число: '))))
