@@ -6,6 +6,7 @@ def rec(*n):
         for i in n:
             if i <= 1:
                 return i
-        else:
-            return i * rec(i-1)
-print(rec(int(input('Введите число: '))))
+            else:
+                return i * rec(i-1)
+print(rec(5, 20, 1))
+#print(rec(int(input('Введите число: '))))
