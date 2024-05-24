@@ -7,5 +7,4 @@ def rec(*n):
             return i
         else:
             return i * rec(i-1)
-print(rec(6))
-#print(rec(int(input('Введите число: '))))
+print(rec(int(input('Введите число: '))))
